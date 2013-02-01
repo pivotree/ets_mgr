@@ -1,0 +1,12 @@
+{application, ets_mgr,
+ [
+  {description, "Keep your ETS tables safe"},
+  {vsn, "0.9.0"},
+  {registered, [ets_mgr]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ets_mgr_app, []}},
+  {env, []}
+ ]}.
